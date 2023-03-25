@@ -1,0 +1,69 @@
+ @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Nunito:wght@300&display=swap');
+
+ body {
+    margin: 0;
+    padding: 1;
+    font-family:'Nunito';
+    color: #2D6975;
+ }
+
+      /*header*/
+
+ .header-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #A8E9F7 ;
+    background-image: url('./img/png_20230324_172641_0000.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    display:flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 100px;
+    position: relative;
+ } 
+
+ .buttom {
+   display: flex;
+   justify-content:space-around;
+
+}
+
+.buttom_link {
+   background-color: #d47aa0;
+   color:#dab1c6;
+   width: 280px;
+   text-align:center;
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: 600;
+   padding: 50.5px 0;
+   border-radius: 20px;
+   border-color: transparent;
+   position:absolute;
+   top: 60%;
+   left: 20%;}
+
+ h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+ }
+
+ h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+ }
+
+ a:hover {
+   background-color: rgb(214, 229, 228);
+ }
+
+
+
+
+    
+ 
